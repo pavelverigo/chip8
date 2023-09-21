@@ -14,6 +14,8 @@ include(FetchContent)
 # Main
 add_executable(${PROJECT_NAME} main.cpp sokol_impl.cpp)
 
+add_executable(print_inst print_inst.cpp)
+
 # sokol
 FetchContent_Declare(
   sokol

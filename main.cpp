@@ -63,7 +63,7 @@ static void draw_tex_cube(const float t) {
 
     sgl_begin_quads();
 
-    sgl_c3f(0.0f, 1.0f, 0.0f);
+    sgl_c3f(1.0f, 1.0f, 1.0f);
     sgl_v2f_t2f(-1.0f,  1.0f, -1.0f,  1.0f);
     sgl_v2f_t2f( 1.0f,  1.0f,  1.0f,  1.0f);
     sgl_v2f_t2f( 1.0f, -1.0f,  1.0f, -1.0f);
